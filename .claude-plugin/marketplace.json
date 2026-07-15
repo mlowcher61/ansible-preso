@@ -1,8 +1,21 @@
 {
   "name": "ansible-preso",
-  "version": "0.1.0",
-  "description": "Generate standardized Red Hat / Ansible solution presentations from Ansible engagement content",
-  "author": {
+  "owner": {
     "name": "Mark Lowcher"
-  }
+  },
+  "metadata": {
+    "description": "Generate standardized Red Hat / Ansible solution presentations from Ansible engagement content",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ansible-preso",
+      "description": "Generate standardized Red Hat / Ansible solution presentations from Ansible engagement content",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ansible-preso"
+      ]
+    }
+  ]
 }
