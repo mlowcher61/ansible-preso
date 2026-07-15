@@ -1,0 +1,8 @@
+{
+  "name": "ansible-preso",
+  "version": "0.1.0",
+  "description": "Generate standardized Red Hat / Ansible solution presentations from Ansible engagement content",
+  "author": {
+    "name": "Mark Lowcher"
+  }
+}
